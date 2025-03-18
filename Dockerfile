@@ -1,4 +1,4 @@
 FROM nginx
-LABEL LABEL documentation="./doc.md" 
+LABEL LABEL description="./doc.md" 
 CMD ["nginx","-g","daemon off;"]
 
